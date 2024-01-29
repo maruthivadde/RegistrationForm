@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(202, 197, 197);
+}
+.form {
+  width: 90%;
+}
+.names {
+  color: rgb(12, 3, 3);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.inputs {
+  height: 40px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 10px;
+  border-radius: 4px;
+  color: rgb(44, 41, 41);
+  border: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.hi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.radio {
+  height: 20px;
+  width: 100px;
+}
+.mm {
+  height: 18px;
+  width: 18px;
+}
+.input {
+  height: 40px;
+  width: 100%;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 9px;
+  border: 0px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: rgb(36, 36, 206);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
